@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import "./App.sass";
-import GridSelector from "./containers/GridSelector";
+import GridSelector from "./components/GridSelector";
 
 function App() {
 	const [sqPoint, setSqPoint] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
